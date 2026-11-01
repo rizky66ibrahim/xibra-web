@@ -1,23 +1,34 @@
 {
   "name": "xibra-web",
-  "type": "module",
+  "version": "0.1.0",
+  "description": "Xibra Web: public portfolio and private dashboard for Xibra Platform, built with Nuxt, Vue, TypeScript, and Tailwind CSS.",
   "private": true,
+  "type": "module",
   "scripts": {
-    "build": "nuxt build",
     "dev": "nuxt dev",
+    "build": "nuxt build",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
-    "postinstall": "nuxt prepare"
+    "postinstall": "nuxt prepare",
+    "format": "prettier --write ."
   },
   "dependencies": {
-    "@pinia/nuxt": "^1.0.3",
-    "nuxt": "^4.6.3",
-    "pinia": "^4.1.0",
-    "vue": "^3.5.44",
-    "vue-router": "^5.4.0"
+    "@iconify/vue": "^5.0.0",
+    "@pinia/nuxt": "^0.11.2",
+    "@tailwindcss/forms": "^0.5.10",
+    "@tailwindcss/typography": "^0.5.18",
+    "@tailwindcss/vite": "^4.1.13",
+    "nuxt": "^4.1.2",
+    "pinia": "^3.0.3",
+    "pinia-plugin-persistedstate": "^4.5.0",
+    "preline": "^3.2.3",
+    "simplebar-vue": "^2.4.2",
+    "swiper": "^12.0.2",
+    "tailwindcss": "^4.1.13",
+    "vue": "^3.5.21",
+    "vue-router": "^4.5.1"
   },
   "devDependencies": {
-    "@tailwindcss/vite": "^4.3.3",
-    "tailwindcss": "^4.3.3"
+    "prettier": "^3.6.2"
   }
 }
